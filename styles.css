@@ -53,6 +53,7 @@ header {
     cursor: pointer;
     font-size: 35px;
     z-index: 11;
+    display: none;
 }
 
 #menu-toggle {
@@ -261,7 +262,7 @@ section {
         margin: 7px 0;
     }
 
-    #menu-toggle:checked + label.menu-icon-action + ul {
+    .nav-bar.open {
         right: 0;
     }
 }
